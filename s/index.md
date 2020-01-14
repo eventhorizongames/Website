@@ -1,9 +1,9 @@
 ---
 layout: default
+title: Links
 ---
 
-
-<h1>ShortUrls</h1>
+<h1>Links</h1>
 <div>
     <a href="/s/creator" target="_blank">Creator Twitter</a>
 </div>
