@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <!-- <aside>
+    <aside>
         <div class="container">
             <nav>
                 <ul>
@@ -34,10 +34,13 @@
                 </ul>
             </nav>
         </div>
-    </aside> -->
+    </aside>
     <main id="content" class="main-content" role="main">
         {{ content }}
     </main>
+    <footer>
+        {% include footer.html %}
+    </footer>
 </body>
 
 </html>
