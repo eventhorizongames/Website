@@ -4,5 +4,5 @@ title: ShortUrl - EHZ Games Studio Twitter
 ---
 
 <script>
-    const url = 'https://twitter.com/EHZGamesStudio';
+    const url = 'https://twitter.com/CodyAnhorn';
 </script>

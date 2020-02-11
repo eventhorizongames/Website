@@ -1,7 +1,9 @@
 - name: Home
   link: /
 - name: Blog
-  link: /blog.html
+  link: /blog
+- name: Games
+  link: /Games
 - name: Platform
   link: /game-development-platform.html
 - name: Contact
