@@ -1,2 +1,4 @@
 title: EventHorizon Games Studio
 description: This is the main EventHorizon Games Studio website.
+plugins:
+    - jekyll-sitemap
