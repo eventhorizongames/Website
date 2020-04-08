@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Links
+sitemap: false
 ---
 
 <h1>Links</h1>

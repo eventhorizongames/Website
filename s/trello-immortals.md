@@ -1,6 +1,7 @@
 ---
 layout: shorturl
 title: ShortUrl - Trello Immortals Game
+sitemap: false
 ---
 
 <script>

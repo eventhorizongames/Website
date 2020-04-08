@@ -1,6 +1,7 @@
 ---
 layout: shorturl
 title: ShortUrl - GitHub
+sitemap: false
 ---
 
 <script>

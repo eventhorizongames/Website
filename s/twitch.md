@@ -1,6 +1,7 @@
 ---
 layout: shorturl
 title: ShortUrl - EHZ Games Studio Twitch
+sitemap: false
 ---
 
 <script>

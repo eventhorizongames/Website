@@ -1,6 +1,7 @@
 ---
 layout: shorturl
 title: ShortUrl - EventHorizon Discord
+sitemap: false
 ---
 
 <script>

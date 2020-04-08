@@ -1,6 +1,7 @@
 ---
 layout: shorturl
 title: ShortUrl - Discord App
+sitemap: false
 ---
 
 <script>

@@ -1,6 +1,7 @@
 ---
 layout: shorturl
 title: ShortUrl - The Creator's Twitter
+sitemap: false
 ---
 
 <script>
