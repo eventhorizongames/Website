@@ -1,10 +1,6 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog
 - name: Games
   link: /Games
 - name: Platform
   link: /game-development-platform.html
-- name: Contact
-  link: mailto:mail+contact@ehzgames.studio

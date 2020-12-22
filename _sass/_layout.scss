@@ -1,39 +1,44 @@
+@import 'eventhorizon-ux';
+@import 'card';
+@import 'product-name';
+@import 'gdp-registration';
+
 body {
     margin: 0;
-    color: $font-color;
-    font-family: $font-style;
+    font-family: var(--font-family);
+    color: var(--foreground-color);
+    background-color: var(--background-color);
     font-size: 1.1em;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    background-position: center;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5  {
     font-weight: 600;
-    color: $heading-font-color;
-    font-family: $heading-font;
+    color: var(--foreground-color);
     line-height: 1.5;
 }
 
 h1 {
-    color: $main;
-    font-size: 2.5em;
+    font-size: 2em;
 
     a,
     a:visited {
         text-decoration: none;
-        color: $main;
     }
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 a:hover {
-    color: $link-hover-color;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 header {
@@ -59,20 +64,30 @@ time {
 
 .container {
     max-width: $content-width;
+    width: initial;
     margin: 0 auto;
 }
 
 a {
     color: $link-color;
 }
+
+.--accent-color {
+    color: var(--accent-color);
+}
+
 /* Aside */
 
 aside {
-    background: $header-nav;
+    background-color: initial;
     width: 100%;
     z-index: 2;
     border-bottom: 1px solid lighten($light, 30%);
     box-shadow: 0px 1px 1px RGBA(4, 25, 54, 0.1);
+
+    .container {
+        background-color: initial;
+    }
 
     nav {
         float: left;
@@ -123,4 +138,46 @@ footer {
 
 img {
     width: 100%;
+}
+
+// Skip Main Content Styles
+.skip-main {
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+a.skip-main:focus,
+a.skip-main:active {
+    // color: #fff;
+    color: $nav-color;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow: auto;
+    margin: 10px 35%;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 999;
+}
+
+hr {
+    margin: 1rem 0;
+}
+.--standard-padding-top {
+    padding-top: 2rem;
+}
+.--hide-desktop {
+    display: none;
+}
+
+@media only screen and (max-width: 544px) {
+    .--hide-desktop {
+        display: inherit;
+    }
 }

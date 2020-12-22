@@ -1,14 +1,33 @@
+:root {
+    --font-family: 'Open Sans', sans-serif;
+    --background-color: rgb(40, 40, 40);
+    --foreground-color: white;
+    --accent-color: #8d4eff;
+    /* Button Styles */
+    --button-color: #ffffff;
+    --button-background-color: rgba(0, 0, 0, 0);
+    --button-primary-color: #ffffff;
+    --button-primary-background-color: rgba(14, 17, 218, 0.74);
+    --button-blink-color: white;
+    --button-border-color: rgba(255, 255, 255, 0.65);
+    --button-corner-background-color: #ffffff;
+    /* Link Styles */
+    --link-color: #acf9fb;
+    --link-shadow-color: rgba(172, 249, 251, 0.65);
+    /* Table Styles */
+    --table-head-color: #a1ecfb;
+    --table-row-color: rgba(2, 157, 187, 0.325);
+}
+
 $content-width: 800px;
-$main: #212c38;
-$font-style: "Open Sans", sans-serif;
+
+$font-style: 'Open Sans', sans-serif;
 $font-color: #212c38;
 $link-color: #255c9b;
-$link-hover-color: $main;
-$heading-font: "Muli", sans-serif;
+$heading-font: 'Muli', sans-serif;
 $heading-font-color: #212c38;
 $light: #e7edf4;
 $header: #111;
-$header-nav: black;
 $nav-color: white;
 
 *,

@@ -3,129 +3,9 @@ layout: default
 title: EventHorizon Games Studio
 ---
 
-<style>
-    @import url(https://fonts.googleapis.com/css?family=Lato);
-    /* /end */
-    body {
-        background-color: white;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    main {
-        margin-top: 1em;
-    }
-
-    h3 {
-        position: relative;
-        left: 45%;
-    }
-
-    /* /end */
-    /* THE BACK */
-    .back {
-        background-image: url(image/bc-back.png);
-        background-size: cover;
-        border: solid black 1px;
-    }
-
-    .back h1,
-    .back p,
-    .back .font-a-icons {
-        color: #000;
-        font-family: 'Lato';
-        margin-left: 35%;
-        line-height: 90%;
-    }
-    .icon-box-group {
-        margin-top: 5%;
-        margin-left: 35%;
-    }
-
-    .back h1 {
-        margin-top: 5%;
-    }
-
-    .back p {
-        font-size: 16px;
-        padding-bottom: 15px;
-        padding-top: 0.5em;
-        border-bottom: 2px solid #000;
-    }
-
-    .back .bold {
-        font-weight: bold;
-    }
-
-    .back .font-a-icons {
-        margin-top: 25px;
-    }
-
-    .back .font-a-icons .icon-group {
-        margin-top: 8px;
-    }
-
-    .back .font-a-icons span,
-    .back .font-a-icons .link,
-    .back .font-a-icons .fa,
-    .back .font-a-icons a {
-        color: #000;
-    }
-
-    .back .font-a-icons .fa {
-        font-size: 18px;
-    }
-
-    .back .font-a-icons span,
-    .back .font-a-icons a {
-        font-size: 16px;
-    }
-
-    .back .font-a-icons a,
-    .back .font-a-icons .website {
-        text-decoration: none;
-    }
-
-    .back .font-a-icons a > .flipped,
-    .back .font-a-icons .website > .flipped {
-        color: #3f3f3f;
-    }
-
-    .back .icon-box {
-        color: #000;
-        font-size: 24px;
-        height: 45px;
-        width: 45px;
-        padding: 5px;
-        top: 45px;
-        left: 35%;
-        display: inline-block;
-        border: 2px solid #000;
-        margin: 5px;
-        text-align: center;
-        cursor: pointer;
-        -webkit-transition: all ease 0.5s;
-        -moz-transition: all ease 0.5s;
-        transition: all ease 0.5s;
-    }
-
-    .back .icon-box:hover {
-        box-shadow: inset 0 50px 0 0 #000;
-        color: #fff;
-    }
-
-    .back {
-        height: 350px;
-    }
-
-    .back {
-        background-color: #000;
-    }
-</style>
-<div class="back">
+<div class="card">
     <h1>EventHorizon Games Studio</h1>
-    <p>Game Development Studio</p>
+    <p class="--accent-color">Game Development Studio</p>
     <div class="font-a-icons">
         <div class="icon-group">
             <div class="icon-group">
@@ -159,14 +39,14 @@ title: EventHorizon Games Studio
         >
             <i class="fab fa-twitter"></i>
         </a>
-        <a
+        <!-- <a
             class="icon-box"
             href="/s/discord"
             title="EventHorizon Games Studio Discord"
             target="_blank"
         >
             <i class="fab fa-discord"> </i>
-        </a>
+        </a> -->
         <!-- <a class="icon-box" href="https://codepen.io/eventhorizongames/" target="_blank"><i class="fa fa-codepen"></i></a> -->
         <a
             class="icon-box"
@@ -176,16 +56,25 @@ title: EventHorizon Games Studio
         >
             <i class="fab fa-github"></i>
         </a>
-        <a class="icon-box" href="/blog.html" title="Blog" target="_top">
+        <a
+            class="icon-box"
+            href="/s/founder-blog"
+            title="Platform Founder's Blog"
+            target="_blank"
+        >
             <i class="fas fa-blog"></i>
         </a>
         <a
             class="icon-box"
             href="/game-development-platform.html"
-            title="EventHorizon's Game Development Platform"
+            title="EventHorizon Game Development Platform"
             target="_top"
         >
             <i class="fas fa-dice-d20"></i>
         </a>
     </div>
 </div>
+
+<hr class="--hide-desktop" />
+
+{% include gdp-registration-platform.html %}
