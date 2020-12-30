@@ -1,7 +1,9 @@
 ---
 layout: nav
-title: Game Development Platform
+title: EventHorizon Game Development Platform
 ---
+
+# EventHorizon Game Development Platform
 
 {% include gdp-registration.html %}
 
