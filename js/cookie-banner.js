@@ -65,6 +65,7 @@
 
             .cookie-banner a {
                 color: lightgray;
+                text-decoration: underline;
             }
 
             .cookie-banner a:hover {
