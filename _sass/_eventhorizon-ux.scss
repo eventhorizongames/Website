@@ -6,6 +6,17 @@
     margin: 0px;
 }
 
+// Standard Link customization
+a.link {
+    color: var(--link-color);
+    text-decoration: underline;
+    overflow: initial;
+    transition: all 250ms ease-out;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+
+// Fancy anchor as buttons
 .link a {
     color: var(--button-color);
     display: block;
